@@ -48,7 +48,7 @@
     <body>
         
         
-    <div class="book" data-level="4.1" data-basepath=".." data-revision="Sat Sep 26 2015 02:53:12 GMT-0500 (CDT)">
+    <div class="book" data-level="4.1" data-basepath=".." data-revision="Sat Sep 26 2015 14:49:43 GMT-0500 (CDT)">
     
 
 <div class="book-summary">
@@ -788,7 +788,7 @@
                         <h1 id="add-pic-to-chirp-model"><a name="add-pic-to-chirp-model" class="plugin-anchor" href="#add-pic-to-chirp-model"><span class="fa fa-link"></span></a>Add Pic to Chirp Model</h1>
 <p>Now we need to let Rails know that our chirps can have images. Let&apos;s open the chirp <code>model</code> at <code>app/model/chirp.rb</code> and add the pic property:</p>
 <pre><code class="lang-rb">  has_attached_file <span class="hljs-symbol">:pic</span>, <span class="hljs-symbol">default_url:</span> <span class="hljs-string">&quot;&quot;</span>
-  validates_attachment <span class="hljs-symbol">:image</span>, <span class="hljs-symbol">content_type:</span> { <span class="hljs-symbol">content_type:</span> [<span class="hljs-string">&quot;image/jpg&quot;</span>, <span class="hljs-string">&quot;image/jpeg&quot;</span>, <span class="hljs-string">&quot;image/png&quot;</span>, <span class="hljs-string">&quot;image/gif&quot;</span>] }
+  validates_attachment <span class="hljs-symbol">:pic</span>, <span class="hljs-symbol">content_type:</span> { <span class="hljs-symbol">content_type:</span> [<span class="hljs-string">&quot;image/jpg&quot;</span>, <span class="hljs-string">&quot;image/jpeg&quot;</span>, <span class="hljs-string">&quot;image/png&quot;</span>, <span class="hljs-string">&quot;image/gif&quot;</span>] }
 </code></pre>
 <p>right after the first line.</p>
 <p><img src="../images/sublime_model_pic_add.png" alt=""></p>
