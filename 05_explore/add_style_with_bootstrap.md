@@ -31,7 +31,7 @@ We could do this in Sublime Text, but let's try using the command line instead! 
 ```bash
 mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
 ```
-Now we can add bootstrap styles in our app/assets/stylesheets/application.css file:
+Now we can add bootstrap styles in our newly renamed app/assets/stylesheets/application.scss file:
 
 ```
 @import "bootstrap-sprockets";
