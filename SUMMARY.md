@@ -26,6 +26,7 @@
    * [Show image](04_adding_images/03_show_images.md)
    * [Review: What did we do?](04_adding_images/04_review_what_did_we_do.md)
 * [Let's see what else we can do!](05_explore/README.md)
+   * [Beautifying your page with Bootstrap](05_explore/beautifying_your_page_with_bootstrap.md)
    * [Getting a Github account to share your code](05_explore/getting_a_github_account_to_share_your_code.md)
    * [Putting your site online](05_explore/putting_your_site_online.md)
 * [Appendix](06_appendix/README.md)
